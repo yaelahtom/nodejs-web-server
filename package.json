@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yaelahtom/nodejs-web-server.git"
+    "start": "git+https://github.com/yaelahtom/nodejs-web-server.git"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/yaelahtom/nodejs-web-server/issues"
   },
-  "homepage": "https://github.com/yaelahtom/nodejs-web-server#readme"
+  "homepage": "https://github.com/yaelahtom/nodejs-web-server#readme",
+  "type": "module"
 }
